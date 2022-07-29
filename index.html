@@ -4,67 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
     <link rel="shortcut icon" href="src/icones/pokemon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
     <title>Pokemon</title>
 </head>
 <body>
-    <header>
-        <img src="src/imagens/pokebola.png" alt="pokebola">
-        <h1>Pokédex</h1>
+    <header class="cabecalho">
+        <img class="pokemon" src="src/imagens/pokebola.png" alt="pokebola">
+        <h1 class="titulo">Pokédex</h1>
+        <img class="pokemon" src="src/imagens/pokedex.png" alt="pokedex">
     </header>
-    <main>
-        <article>
-            <button>
-                <img src="src/imagens/seta.png" alt="seta para ir a esquerda">
-            </button>
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-seta-esquerda">
+            <img src="src/imagens/seta.png" alt="seta para ir a esquerda">
+        </button>
 
-            <ul>
-                <li>
-                    <div>
-                        <h2>Pikachu</h2>
-                        <p>HP 300</p>
-                    </div>
-                    <div>
-                        <img src="src/imagens/pikachu.png" alt="pikachu">
-                    </div>
-                    <div>
-                        <h3>Descrição</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident id eius eveniet sed illo maiores minima consectetur tempora aliquam.</p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <h2>Charizard</h2>
-                        <p>HP 800</p>
-                    </div>
-                    <div>
-                        <img src="src/imagens/charizard.png" alt="charizard">
-                    </div>
-                    <div>
-                        <h3>Descrição</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis id possimus laboriosam ipsam provident dolorem impedit corporis quod odit neque.</p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <h2>Mewtwo</h2>
-                        <p>HP 1200</p>
-                    </div>
-                    <div>
-                        <img src="src/imagens/mewtwo.png" alt="mewtwo">
-                    </div>
-                    <div>
-                        <h3>Descrição</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est dignissimos harum fugit, iste saepe aperiam eveniet velit itaque illum.</p>
-                    </div>
-                </li>
-            </ul>
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="src/imagens/pikachu.png" alt="pikachu">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident id eius eveniet sed illo maiores minima consectetur tempora aliquam.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="src/imagens/charizard.png" alt="charizard">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="conteudo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis id possimus laboriosam ipsam provident dolorem impedit corporis quod odit neque.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
+                </div>
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="src/imagens/mewtwo.png" alt="mewtwo">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est dignissimos harum fugit, iste saepe aperiam eveniet velit itaque illum.</p>
+                </div>
+            </li>
+        </ul>
 
-            <button>
-                <img src="src/imagens/seta.png" alt="seta para ir a direita">
-            </button>
-        </article>
+        <button class="btn-seta">
+            <img src="src/imagens/seta.png" alt="seta para ir a direita">
+        </button>
     </main>
     <footer>
         <p>Criado por Filipe Gabriel Rocha</p>
