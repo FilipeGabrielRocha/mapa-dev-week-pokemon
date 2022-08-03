@@ -22,7 +22,7 @@ const cartoes = document.querySelectorAll(".cartao");
 
 // - passo 2 - dar um jeito de identificar o clique do usuário na seta avançar
 btnAvancar.addEventListener("click", function () {
-  if (cartaoAtual === cartoes.length - 1) return;
+  if (cartaoAtual === cartoes.length - 1) cartaoAtual = -1;
 
   esconderCartaoSelecionado();
 
@@ -41,7 +41,7 @@ const btnVoltar = document.getElementById("btn-voltar");
 
 // - passo 2 - dar um jeito de identificar o clique do usuário na seta voltar
 btnVoltar.addEventListener("click", function () {
-  if (cartaoAtual === 0) return;
+  if (cartaoAtual === 0) cartaoAtual = cartoes.length;
 
   esconderCartaoSelecionado();
 
