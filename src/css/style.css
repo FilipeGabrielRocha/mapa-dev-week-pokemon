@@ -14,10 +14,6 @@ body {
     min-height: 100vh;
 }
 
-header {
-
-}
-
 .cabecalho {
     display: flex;
     justify-content: center;
