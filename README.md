@@ -1,5 +1,5 @@
 # mapa-dev-week-pokemon
- Projeto de Cartas de Pokemon, no qual tem um carrossel de cartas, clicando na seta passa a carta, no fim do carrossel volta para primeira carta
+ Projeto de Cartas de Pokemon, no qual tem um carrossel de cartas, clicando na seta passa a carta, no fim do carrossel volta para primeira carta ou a última, dependendo de qual seta esta clicando.
  ## Página no desktop e tablet
  ![image](https://user-images.githubusercontent.com/94459039/216769011-17c56530-ed7f-45c7-b089-31daf56b3597.png)
 ## Página no celular
